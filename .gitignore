@@ -1,0 +1,39 @@
+#---------------------------------
+# Directories
+#---------------------------------
+node_modules
+coverage/
+dist/
+.nyc_output
+
+#---------------------------------
+# Extensions
+#---------------------------------
+*.gz
+*.log
+*.rar
+*.tar
+*.zip
+.opt-in
+.opt-out
+
+#---------------------------------
+# IDE generated
+#---------------------------------
+.idea/
+*.iml
+.vscode/
+
+#---------------------------------
+# OS generated
+#---------------------------------
+__MACOSX/
+.DS_Store
+Thumbs.db
+
+#---------------------------------
+# These cause more harm than good
+# when working with contributors
+#---------------------------------
+package-lock.json
+yarn.lock
