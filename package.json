@@ -1,0 +1,42 @@
+{
+  "name": "babel-codemod",
+  "version": "0.0.1",
+  "description": "A practical way to use Babel to codemod your code",
+  "main": "plugin.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && babel \"src/**/*.js\" -d dist",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayKan/babel-codemod.git"
+  },
+  "keywords": [
+    "codemod",
+    "babel-plugin"
+  ],
+  "author": "Jay Kan <leicasper@gmail.com> (https://github.com/JayKan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JayKan/babel-codemod/issues"
+  },
+  "homepage": "https://github.com/JayKan/babel-codemod#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "circular-json": "^0.5.1",
+    "is-builtin-module": "^2.0.0",
+    "rimraf": "^2.6.2",
+    "standard-version": "^4.3.0"
+  },
+  "standard-version": {
+    "skip": {
+      "commit": true
+    }
+  }
+}
