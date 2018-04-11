@@ -1,11 +1,15 @@
 {
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": 8
+        }
+      }
+    ]
+  ],
   "plugins": [
     "./plugin"
-  ],
-  "parserOpts": {
-    "parser": "recast"
-  },
-  "generatorOpts": {
-    "generator": "recast"
-  }
+  ]
 }
