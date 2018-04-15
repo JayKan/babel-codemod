@@ -5,7 +5,7 @@
 
 </div>
 
-[![travis build][travis-badge]][badge]
+[![Build Status][travis-badge]][badge]
 [![MIT License][license-badge]][license]
 [![Conventional Commits][conventional-badge]][conventional]
 [![PRs Welcome][prs-badge]][prs]
@@ -32,12 +32,15 @@ Use our custom `babel-plugin` to codemod your code programatically 💪. To see 
 ```bash
 $ git clone
 
-$ nvm use 
+$ nvm use
 
 $ npm install
 
+# see dist/demo/**.js for our transfomred code
 $ npm run build
-# See dist/demo/**.js for our transfomred code
+
+# or you can simply run below command to see our transoformed code in terminal
+$ npm run demo
 ```
 
 ## Resrouces
@@ -50,8 +53,8 @@ $ npm run build
 ## License
 MIT © [Jay Kan](https://github.com/JayKan)
 
-[travis-badge]: https://img.shields.io/travis/jaykan/babel-codemod.svg?style=flat-square
-[badge]: https://travis-ci.org/jaykan/babel-codemod
+[travis-badge]: https://img.shields.io/travis/JayKan/babel-codemod.svg?style=flat-square
+[badge]: https://travis-ci.org/JayKan/babel-codemod
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square
 [prs]: https://github.com/JayKan/babel-codemod/pulls
 [license-badge]: https://img.shields.io/npm/l/express.svg?style=flat-square
