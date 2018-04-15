@@ -30,13 +30,15 @@ function doThings(withThing) {
 }
 
 doThings('/blah/blah').then(result => {
+  console.log('\n');
   console.log(
     stripIndents`
-      ----------------------------
+      ==================================
       doThings and get results:
 
+
       ${JSON.stringify(result, null, 4)}
-      ----------------------------
+      ==================================
     `
   );
 });

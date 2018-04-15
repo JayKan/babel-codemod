@@ -1,4 +1,7 @@
 {
+  "plugins": [
+    "./lib/plugin"
+  ],
   "presets": [
     [
       "env",
@@ -9,7 +12,16 @@
       }
     ]
   ],
-  "plugins": [
-    "./lib/plugin"
-  ]
+  "env": {
+    "test": {
+      "plugins": [
+        [
+          "transform-es2015-modules-commonjs",
+          {
+            "loose": true
+          }
+        ]
+      ]
+    }
+  }
 }

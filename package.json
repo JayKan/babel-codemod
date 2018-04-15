@@ -4,13 +4,16 @@
   "description": "A practical way to use Babel to codemod your code",
   "main": "./lib/plugin.js",
   "engines": {
-    "node": ">=8",
-    "npm": ">=5"
+    "node": ">= 8",
+    "npm": ">= 5"
   },
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && babel \"demo/**/*.js\" -d dist",
     "demo": "run-s build && node dist/demo/index.js",
+    "test": "cross-env BABEL_ENV=test jest --config=jest.config.json",
+    "test:watch": "npm run test -- --watch",
+    "coverage": "npm run test -- --coverage",
     "release": "standard-version"
   },
   "repository": {
@@ -30,11 +33,15 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babylon": "^6.18.0",
     "circular-json": "^0.5.1",
     "common-tags": "^1.7.2",
+    "cross-env": "^5.1.4",
     "is-builtin-module": "^2.0.0",
+    "jest": "^22.4.3",
     "npm-run-all": "^4.1.2",
     "rimraf": "^2.6.2",
     "standard-version": "^4.3.0"
