@@ -2,14 +2,14 @@
   "name": "babel-codemod",
   "version": "0.2.0",
   "description": "A practical way to use Babel to codemod your code",
-  "main": "plugin.js",
+  "main": "./lib/plugin.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
   },
   "scripts": {
-    "clean:dist": "rimraf dist",
-    "build": "npm run clean:dist && babel \"demo/**/*.js\" -d dist",
+    "clean": "rimraf dist",
+    "build": "npm run clean && babel \"demo/**/*.js\" -d dist",
     "demo": "run-s build && node dist/demo/index.js",
     "release": "standard-version"
   },
