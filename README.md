@@ -6,8 +6,9 @@
 </div>
 
 [![Build Status][travis-badge]][badge]
-[![MIT License][license-badge]][license]
+[![Dependencies][dependencyci-badge]][dependencyci]
 [![Conventional Commits][conventional-badge]][conventional]
+[![MIT License][license-badge]][license]
 [![PRs Welcome][prs-badge]][prs]
 [![All Contributors][contributors]](#contributors)
 [![Code of Conduct][coc-badge]][coc]
@@ -55,7 +56,7 @@ $ npm run demo
 ## Contributors
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/1400300?v=4" width="80px;"/><br /><sub><b>Jay Kan</b></sub>](https://github.com/JayKan)<br />[💻](https://github.com/JayKan/babel-codemod/commits?author=JayKan "Code") [📖](https://github.com/JayKan/babel-codemod/commits?author=JayKan "Documentation") [💡](#example-JayKan "Examples") |
+| [<img src="https://avatars0.githubusercontent.com/u/1400300?v=4" width="100px;"/><br /><sub><b>Jay Kan</b></sub>](https://github.com/JayKan)<br />[💻](https://github.com/JayKan/babel-codemod/commits?author=JayKan "Code") [📖](https://github.com/JayKan/babel-codemod/commits?author=JayKan "Documentation") [💡](#example-JayKan "Examples") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
@@ -66,9 +67,11 @@ MIT © [Jay Kan](https://github.com/JayKan)
 
 [travis-badge]: https://img.shields.io/travis/JayKan/babel-codemod.svg?style=flat-square
 [badge]: https://travis-ci.org/JayKan/babel-codemod
+[dependencyci-badge]: https://dependencyci.com/github/JayKan/babel-codemod/badge?style=flat-square
+[dependencyci]: https://dependencyci.com/github/JayKan/babel-codemod
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square
 [prs]: https://github.com/JayKan/babel-codemod/pulls
-[license-badge]: https://img.shields.io/npm/l/babel-codemod.svg?style=flat-square
+[license-badge]: https://img.shields.io/npm/l/express.svg?style=flat-square
 [license]: https://github.com/JayKan/babel-codemod/blob/master/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/JayKan/babel-codemod/blob/master/CODE_OF_CONDUCT.md
