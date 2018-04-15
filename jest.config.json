@@ -1,0 +1,19 @@
+{
+  "roots": [
+    "<rootDir>"
+  ],
+  "testMatch": [
+    "<rootDir>/lib/**/*jest.js"
+  ],
+  "testEnvironment": "node",
+  "collectCoverageFrom": [
+    "lib/**/*.js"
+  ],
+  "coverageDirectory": "./coverage",
+  "coverageReporters": [
+    "json",
+    "html",
+    "text",
+    "text-summary"
+  ]
+}
