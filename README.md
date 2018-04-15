@@ -32,10 +32,12 @@ Use our custom `babel-plugin` to codemod your code programatically 💪. To see 
 ```bash
 $ git clone
 
+$ nvm use 
+
 $ npm install
 
 $ npm run build
-# See dist/index.js for our transfomred code
+# See dist/demo/**.js for our transfomred code
 ```
 
 ## Resrouces
