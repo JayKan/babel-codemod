@@ -9,6 +9,7 @@
 [![MIT License][license-badge]][license]
 [![Conventional Commits][conventional-badge]][conventional]
 [![PRs Welcome][prs-badge]][prs]
+[![All Contributors][contributors]](#contributors)
 [![Code of Conduct][coc-badge]][coc]
 
 > Prerequisites: make sure you have node **>=8** and npm **>=5**
@@ -50,6 +51,16 @@ $ npm run demo
 - Talk 📢: [Hiking Throught the JavaScript Forest](https://channel9.msdn.com/Blogs/seattlejs/2016-01-14-02)
 - Article 📝: [Turbocharged JavaScript Refactoring with Codemod at Airbnb](https://medium.com/airbnb-engineering/turbocharged-javascript-refactoring-with-codemods-b0cae8b326b9)
 
+
+## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/1400300?v=4" width="80px;"/><br /><sub><b>Jay Kan</b></sub>](https://github.com/JayKan)<br />[💻](https://github.com/JayKan/babel-codemod/commits?author=JayKan "Code") [📖](https://github.com/JayKan/babel-codemod/commits?author=JayKan "Documentation") [💡](#example-JayKan "Examples") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+
 ## License
 MIT © [Jay Kan](https://github.com/JayKan)
 
@@ -57,9 +68,10 @@ MIT © [Jay Kan](https://github.com/JayKan)
 [badge]: https://travis-ci.org/JayKan/babel-codemod
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat-square
 [prs]: https://github.com/JayKan/babel-codemod/pulls
-[license-badge]: https://img.shields.io/npm/l/express.svg?style=flat-square
+[license-badge]: https://img.shields.io/npm/l/babel-codemod.svg?style=flat-square
 [license]: https://github.com/JayKan/babel-codemod/blob/master/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/JayKan/babel-codemod/blob/master/CODE_OF_CONDUCT.md
 [conventional-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-brightgreen.svg?style=flat-square
 [conventional]: https://conventionalcommits.org
+[contributors]: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
