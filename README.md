@@ -16,7 +16,7 @@
 > Prerequisites: make sure you have node **>=8** and npm **>=5**
 
 ## The Problem
-When ES moudules land in Node.js, it's possible to the following:
+When ES modules land in Node.js, it's possible to the following:
 
 ```javascript
 import { foo } from '/foo';
@@ -38,10 +38,10 @@ $ nvm use
 
 $ npm install
 
-# see dist/demo/**.js for our transfomred code
+# see dist/demo/**.js for our transformed code
 $ npm run build
 
-# or you can simply run below command to see our transoformed code in terminal
+# or you can simply run below command to see our transformed code in terminal
 $ npm run demo
 ```
 
